@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "./Title";
-import { quote, testimonialOne, testimonialTwo } from "../assets";
+import { quote, testimonialOne, testimonialTwo,testimonialThree } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 function SampleNextArrow(props: any) {
@@ -111,7 +111,7 @@ const Testimonial = () => {
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       Bound - Trolola
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Jone Duone</h3>
                     <p className="text-base tracking-wide text-gray-500">
                       Operation Officer
                     </p>
@@ -123,10 +123,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                         Gadget Galaxy Website
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        <p className="text-base text-center text-gray-400 mt-3">
+                          via Upwork - Ju 4, 2023
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -137,12 +137,8 @@ const Testimonial = () => {
                         <RiStarFill />
                       </div>
                     </div>
-                    <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    <p className="text-base text-justify font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Outstanding MERN developer! Their MongoDB, Express, React, and Node.js expertise transformed our web apps. Clean, innovative code and seamless collaboration. A true asset to any project!
                     </p>
                   </div>
                 </div>
@@ -162,7 +158,7 @@ const Testimonial = () => {
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       Bound - Trolola
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Tom Hanks</h3>
                     <p className="text-base tracking-wide text-gray-500">
                       Operation Officer
                     </p>
@@ -174,10 +170,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Travel Agency Website Design
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        <p className="text-base text-center  text-gray-400 mt-3">
+                          via Fiverr - Mar 9, 2021 
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -185,15 +181,11 @@ const Testimonial = () => {
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
-                        <RiStarFill />
+                        
                       </div>
                     </div>
-                    <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    <p className="text-base text-justify font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Exceptional MERN stack developer! Their skills in MongoDB, Express, React, and Node.js are unparalleled. Our projects have flourished thanks to their clean code and creative solutions. Highly recommended for any web development needs!
                     </p>
                   </div>
                 </div>
@@ -206,14 +198,14 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#020617] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialOne}
+                    src={testimonialThree}
                     alt="testimonialOne"
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       Bound - Trolola
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Duone Joe</h3>
                     <p className="text-base tracking-wide text-gray-500">
                       Operation Officer
                     </p>
@@ -229,10 +221,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Event Management Website
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        <p className="text-base text-center  text-gray-400 mt-3">
+                          via Upwork - Mar 4, 2022
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -243,12 +235,8 @@ const Testimonial = () => {
                         <RiStarFill />
                       </div>
                     </div>
-                    <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    <p className="text-base text-justify font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Top-tier MERN developer! Their proficiency in MongoDB, Express, React, and Node.js is a game-changer. Our web projects have thrived, thanks to their coding finesse and ingenious solutions. A must-have for web development!
                     </p>
                   </div>
                 </div>

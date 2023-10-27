@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { navLinksdata } from "../constants";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 backdrop-blur-2xl transition-colors bg-bodyColor/70 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
       <div>
-        <h2 className="text-xl font-medium">Portfolio</h2>
+        <h2 className="text-xl font-medium">Rakhibul</h2>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -42,11 +42,9 @@ const Navbar = () => {
           <div className="w-[80%] h-screen mdl:hidden overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-              <h2 className="text-xl font-medium">Portfolio</h2>
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+              <h2 className="text-xl font-medium">Rakhibul</h2>
+                <p className="text-sm text-justify text-gray-400 mt-2">
+                I'm a MERN stack developer skilled in MongoDB, Express, React, and Node.js, creating user-friendly web apps and passionate about innovation.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -74,27 +72,24 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-                    <span className="bannerIcon">
-                      <FaYoutube />
-                    </span>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
-                    target="_blank"
-                  >
-                    <span className="bannerIcon">
-                      <FaLinkedinIn />
-                    </span>
-                  </a>
-                  <a
-                    href="https://www.facebook.com/Noorlalu143/"
-                    target="_blank"
-                  >
-                    <span className="bannerIcon">
-                      <FaFacebookF />
-                    </span>
-                  </a>
+                <a href="https://github.com/rakhibul07" target="_blank">
+              <span className="bannerIcon">
+                <FaGithub/>
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rakhibul-islam-1a3863298/"
+              target="_blank"
+            >
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
+            <a href="https://www.facebook.com/ri.badhon.3" target="_blank">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
                 </div>
               </div>
               <span

@@ -5,10 +5,10 @@ import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["MERN Stack Developer.", "UI Designer."],
+    words: ["Web Developer.","MERN Stack Developer.", "UI Designer."],
     loop: true,
-    typeSpeed: 20,
-    deleteSpeed: 10,
+    typeSpeed: 40,
+    deleteSpeed: 20,
     delaySpeed: 2000,
   });
   return (
@@ -22,7 +22,7 @@ const LeftBanner = () => {
           a <span>{text}</span>
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wider">
+        <p className="text-base text-justify font-bodyFont leading-6 tracking-wider">
         I'm a MERN stack developer skilled in MongoDB, Express, React, and Node.js, creating user-friendly web apps and passionate about innovation.
         </p>
       </div>

@@ -10,53 +10,53 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          
+          <h2 className="text-3xl md:text-4xl font-bold">Personal Projects</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title=" E-commerce Website"
+            subTitle="2020"
+            result="MERN"
+            des="Developed a full-fledged e-commerce website using MERN stack technologies. Implemented user authentication, product catalog, and shopping cart functionality. "
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Task Management App"
+            subTitle="2022"
+            result="MERN"
+            des="Created a task management application with React and Firebase, allowing users to create, update, and delete tasks. This project enhanced my front-end development skills."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Portfolio Website"
+            subTitle="2023"
+            result="MERN"
+            des="Designed and built my portfolio website from scratch, showcasing my web development skills. Customized the layout and added interactive elements to make it visually engaging."
           />
         </div>
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
+         
+          <h2 className="text-3xl md:text-4xl font-bold">Online & Offline Courses </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Web Development"
+            subTitle="Modern Technical Institute (2020)"
+            result="Offline"
+            des="Completed a comprehensive web development bootcamp covering HTML, CSS, JavaScript, and responsive web design. Gained a strong foundation in front-end development. "
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="MERN Stack Development"
+            subTitle="Programming Hero (2023)"
+            result="Online"
+            des=" Completed an intensive MERN stack development program, covering the entire web development stack, including MongoDB, Express.js, React, and Node.js. "
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="CMS Development "
+            subTitle="NACTAR (2023)"
+            result="Offline"
+            des="Designed and developed a custom Content Management System (CMS) to streamline content creation, management, and publication for web applications. "
           />
         </div>
       </div>
