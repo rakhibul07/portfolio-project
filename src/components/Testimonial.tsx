@@ -122,14 +122,14 @@ const Testimonial = () => {
                   <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
-                        <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        <h3 className="text-xl text-center lgl:text-2xl font-medium tracking-wide">
                          Gadget Galaxy Website
                         </h3>
                         <p className="text-base text-center text-gray-400 mt-3">
                           via Upwork - Ju 4, 2023
                         </p>
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      <div className="text-yellow-500 flex justify-center pt-2  gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
@@ -169,14 +169,14 @@ const Testimonial = () => {
                   <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
-                        <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        <h3 className="text-xl text-center lgl:text-2xl font-medium tracking-wide">
                           Travel Agency Website Design
                         </h3>
                         <p className="text-base text-center  text-gray-400 mt-3">
                           via Fiverr - Mar 9, 2021 
                         </p>
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      <div className="text-yellow-500 flex justify-center pt-2  gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
@@ -219,15 +219,15 @@ const Testimonial = () => {
                   />
                   <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#0B1120] to-[#0B1120] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                      <div>
-                        <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                      <div className="text-center ">
+                        <h3 className="text-xl  lgl:text-2xl text-center font-medium tracking-wide">
                           Event Management Website
                         </h3>
                         <p className="text-base text-center  text-gray-400 mt-3">
                           via Upwork - Mar 4, 2022
                         </p>
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      <div className="text-yellow-500 flex justify-center pt-2  gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
